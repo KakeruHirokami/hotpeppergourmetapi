@@ -1,0 +1,8 @@
+version: '3'
+services:
+  hotpeppergourmetapi:
+    image: hotpeppergourmetapi:latest
+    container_name: hotpeppergourmetapi
+    tty: true
+    volumes:
+      - ./app:/usr/src/app
